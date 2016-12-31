@@ -42,15 +42,15 @@
     "clean": "del build/**",
     "setup": "mkdir -p build",
     "transform": "postcss --config postcss.config.js",
-    "minify": "postcss -u cssnano build/ticketfly-css-color-variables.css -o build/ticketfly-css-color-variables.min.css",
+    "minify": "postcss -u cssnano build/ticketfly-css-color-garnishes.css -o build/ticketfly-css-color-garnishes.min.css",
     "build:dist": "npm run setup && npm run transform",
     "build:dist:min": "npm run build:dist && npm run minify",
-    "build:test": "npm run clean && postcss -u postcss-import -u postcss-cssnext test/index-test.css -o build/test.css",
+    "build:test": "npm run clean && npm run transform && postcss -u postcss-import -u postcss-cssnext test/index-test.css -o build/test.css",
     "build:lint": "npm run setup && postcss --config test/postcss-config.js",
-    "prepublish": "npm run clean && npm run setup && npm run build:dist",
     "serve:test": "npm run build:test && http-server -p 4802 -o",
     "lint:css": "npm run build:lint && rm build/lint.css",
     "test": "npm run lint:css",
+    "prepublish": "npm run test && npm run build:test && npm run build:dist",
     "release": "npmpub"
   }
 }

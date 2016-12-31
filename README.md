@@ -26,6 +26,16 @@ Installing with `yarn`:
 yarn add ticketfly-css-color-variables
 ```
 
+## Developing
+
+### Notable `npm scripts`
+
+- `npm test`: lint the CSS the contents of this project's source CSS.
+- `npm run serve:test`: Build and serve the project.
+  + You can then find the "visual testing" demo by navigating `test/` directory in your browser.
+
+
+
 [npm-badge]: https://img.shields.io/npm/v/ticketfly-css-color-variables.svg
 [npm-badge-url]: https://www.npmjs.com/package/ticketfly-css-color-variables
 [circle-badge]: https://circleci.com/gh/Ticketfly-UI/ticketfly-css-color-variables/tree/master.svg?style=svg&circle-token={{CIRCLE_TOKEN}}
