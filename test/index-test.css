@@ -1,0 +1,9 @@
+@import "../index.css";
+
+:root {
+  --theme-color__primary: var(--x-color-indigo-5);
+}
+
+.g-test-color--primary {
+  color: var(--theme-color__primary);
+}

@@ -1,0 +1,114 @@
+/**
+ * Internal color variables for Ticketfly's brand
+ *
+ * Tips on extending:
+ *   Being internal variables, you may want to map these
+ *   to more semantically meaninful variables within
+ *   your own application. For example, if you're using "Indigo"
+ *   as your primary color, you can define something like this:
+ *
+ *   --theme-color__primary: var(--x-color-indigo-5);
+ *
+ *   This will help you separate the way you `apply` color throughout
+ *   an application from the specific values that you're using for it.
+ */
+
+:root {
+
+  /* Ticketfly Neutral Grays */
+  --x-color-gray-0: hsla(240, 21.6%, 97.5%, 1);
+  --x-color-gray-1: hsla(228, 15.4%, 93.5%, 1);
+  --x-color-gray-2: hsla(228, 13.8%, 85.5%, 1);
+  --x-color-gray-3: hsla(231.3, 11.9%, 76.9%, 1);
+  --x-color-gray-4: hsla(232.4, 9.8%, 67.9%, 1);
+  --x-color-gray-5: hsla(230.3, 9.2%, 59.8%, 1);
+  --x-color-gray-6: hsla(229.9, 7.6%, 53.4%, 1);
+  --x-color-gray-7: hsla(230.6, 7.8%, 45.1%, 1);
+  --x-color-gray-8: hsla(228.6, 8.8%, 35.7%, 1);
+  --x-color-gray-9: hsla(230.6, 9.6%, 26.5%, 1);
+  --x-color-gray-10: hsla(228, 10%, 20%, 1);
+
+  /* Ticketfly Indigos */
+  --x-color-indigo-0: hsla(240, 69.6%, 96.1%, 1);
+  --x-color-indigo-1: hsla(241.5, 67.9%, 87.9%, 1);
+  --x-color-indigo-2: hsla(241.8, 67.2%, 79.6%, 1);
+  --x-color-indigo-3: hsla(241.1, 67.1%, 71.4%, 1);
+  --x-color-indigo-4: hsla(241.1, 67.1%, 71.4%, 1);
+  --x-color-indigo-5: hsla(241.6, 66.7%, 58.9%, 1);
+  --x-color-indigo-6: hsla(241.9, 52.4%, 52.9%, 1);
+  --x-color-indigo-7: hsla(241.6, 46.7%, 47.1%, 1);
+  --x-color-indigo-8: hsla(241.7, 46.6%, 41.2%, 1);
+  --x-color-indigo-9: hsla(241.5, 46.7%, 35.3%, 1);
+  --x-color-indigo-10: hsla(241.8, 46.6%, 29.4%, 1);
+
+  /* Ticketfly Greens */
+  --x-color-green-0: hsla(160.7, 64.8%, 95.5%, 1);
+  --x-color-green-1: hsla(157.8, 67.8%, 86.7%, 1);
+  --x-color-green-2: hsla(157.6, 68%, 77.8%, 1);
+  --x-color-green-3: hsla(156.8, 68.5%, 68.9%, 1);
+  --x-color-green-4: hsla(156.9, 68.8%, 60%, 1);
+  --x-color-green-5: hsla(157.1, 68.3%, 55.5%, 1);
+  --x-color-green-6: hsla(157.1, 54.6%, 50%, 1);
+  --x-color-green-7: hsla(157.3, 54.9%, 44.3%, 1);
+  --x-color-green-8: hsla(157.2, 54.6%, 38.8%, 1);
+  --x-color-green-9: hsla(157.3, 55.1%, 33.2%, 1);
+  --x-color-green-10: hsla(157.1, 55%, 27.8%, 1);
+
+  /* Ticketfly Reds */
+  --x-color-red-0: hsla(3.8, 100%, 96.9%, 1);
+  --x-color-red-1: hsla(2.6, 100%, 90.8%, 1);
+  --x-color-red-2: hsla(1.6, 100%, 84.7%, 1);
+  --x-color-red-3: hsla(2.1, 100%, 78.5%, 1);
+  --x-color-red-4: hsla(2.2, 100%, 72.4%, 1);
+  --x-color-red-5: hsla(2.3, 100%, 69.2%, 1);
+  --x-color-red-6: hsla(2.6, 74%, 62.4%, 1);
+  --x-color-red-7: hsla(2.3, 55.3%, 55.3%, 1);
+  --x-color-red-8: hsla(2.1, 44.3%, 48.7%, 1);
+  --x-color-red-9: hsla(2, 44.4%, 41.6%, 1);
+  --x-color-red-10: hsla(2.3, 44.7%, 34.7%, 1);
+
+  /* Ticketfly Yellows */
+  --x-color-yellow-0: hsla(45.9, 76.1%, 96.7%, 1);
+  --x-color-yellow-1: hsla(44.7, 100%, 92.4%, 1);
+  --x-color-yellow-2: hsla(44.3, 100%, 86.5%, 1);
+  --x-color-yellow-3: hsla(43.7, 95.8%, 81.2%, 1);
+  --x-color-yellow-4: hsla(44.2, 100%, 76.3%, 1);
+  --x-color-yellow-5: hsla(43.8, 100%, 71%, 1);
+  --x-color-yellow-6: hsla(43.7, 95.2%, 66.6%, 1);
+  --x-color-yellow-7: hsla(43.9, 84.2%, 60.2%, 1);
+  --x-color-yellow-8: hsla(43.9, 75.9%, 50.9%, 1);
+  --x-color-yellow-9: hsla(44.1, 81.8%, 45.1%, 1);
+  --x-color-yellow-10: hsla(43.8, 81.6%, 40.8%, 1);
+
+  /* Ticketfly Blues */
+  --x-color-blue-0: hsla(201.6, 100%, 95.7%, 1);
+  --x-color-blue-1: hsla(200.2, 100%, 86.7%, 1);
+  --x-color-blue-2: hsla(200.9, 100%, 78.1%, 1);
+  --x-color-blue-3: hsla(201, 100%, 69.2%, 1);
+  --x-color-blue-4: hsla(200.8, 100%, 60.4%, 1);
+  --x-color-blue-5: hsla(200.8, 100%, 55.9%, 1);
+  --x-color-blue-6: hsla(201, 80.2%, 50.4%, 1);
+  --x-color-blue-7: hsla(200.7, 79%, 44.7%, 1);
+  --x-color-blue-8: hsla(200.9, 79.1%, 39.2%, 1);
+  --x-color-blue-9: hsla(200.9, 78.8%, 33.6%, 1);
+  --x-color-blue-10: hsla(200.7, 79%, 28.1%, 1);
+
+  /* Ticketfly Violets */
+  --x-color-violet-0: hsla(277.1, 100%, 96.9%, 1);
+  --x-color-violet-1: hsla(276.1, 100%, 90.6%, 1);
+  --x-color-violet-2: hsla(276.7, 100%, 84.3%, 1);
+  --x-color-violet-3: hsla(276.4, 100%, 78.1%, 1);
+  --x-color-violet-4: hsla(276.2, 100%, 71.8%, 1);
+  --x-color-violet-5: hsla(276.4, 100%, 68.7%, 1);
+  --x-color-violet-6: hsla(276.2, 74.2%, 62%, 1);
+  --x-color-violet-7: hsla(276.6, 55.7%, 54.9%, 1);
+  --x-color-violet-8: hsla(275.8, 45.5%, 48.3%, 1);
+  --x-color-violet-9: hsla(276.2, 45.6%, 41.2%, 1);
+  --x-color-violet-10: hsla(275.9, 45.5%, 34.5%, 1);
+
+  /* Pure Black */
+  --x-color-black: hsla(0, 0%, 0%, 1);
+
+  /* Pure White */
+  --x-color-white: hsla(0, 100%, 100%, 1);
+}
